@@ -1,0 +1,43 @@
+.Contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90vh;
+  margin-top: 50px;
+}
+.imageDiv {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.FormDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: 100px;
+  width: 700px;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.button {
+  margin-top: 25px;
+  background-color: brown;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  width: 150px;
+  color: white;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid #121619;
+}
+input::placeholder,
+textarea::placeholder {
+  font-weight: bold;
+  color: black;
+}
